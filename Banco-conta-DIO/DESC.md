@@ -1,12 +1,13 @@
 # Banco Online
-Um simples sistema de banco online implementado em Python. O programa permite que os usuários realizem operações bancárias básicas, como depósitos, saques, consultas de saldo e visualização do extrato.
+Proposta de projeto da plataforma DIO para o bootcamp "Potência Tech powered by iFood | Ciências de Dados com Python"
+Uma simulação de um sistema de banco online criado em Python. O programa permite que os usuários realizem operações bancárias básicas, como depósitos, saques, consultas de saldo e visualização do extrato.
 
 # Funcionalidades
 O sistema oferece as seguintes funcionalidades:
 
 Depósito: os usuários podem realizar depósitos em suas contas fornecendo o valor do depósito. O saldo da conta é atualizado e o registro do depósito é adicionado ao extrato.
 
-Saque: os usuários podem efetuar saques informando o valor do saque desejado. Antes de realizar a operação, são feitas algumas validações, como a verificação do saldo disponível e do limite diário de saque. O saldo da conta é atualizado e o registro do saque é adicionado ao extrato.
+Saque: os usuários podem efetuar saques informando o valor do saque desejado. Antes de realizar a operação, são feitas algumas validações, como a verificação do saldo disponível e do limite diário de saque configurado para R$500.00. O saldo da conta é atualizado e o registro do saque é adicionado ao extrato.
 
 Consulta de saldo: os usuários podem verificar o saldo atual de suas contas.
 
@@ -20,13 +21,11 @@ Clone este repositório para o seu ambiente local.
 
 Abra um terminal e navegue até o diretório do projeto.
 
-Execute o arquivo bank.py usando o interpretador Python.
+Execute o arquivo banco.py usando o interpretador Python.
 
 Siga as instruções exibidas no terminal para realizar as operações bancárias desejadas. Utilize os números do menu para selecionar a opção desejada.
 
 O programa exibirá mensagens de confirmação, informações sobre saldo e extrato, e mensagens de erro quando necessário.
-
-Para sair do programa, selecione a opção "Sair" no menu.
 
 # Observações
 Certifique-se de utilizar o separador decimal "." ao inserir valores monetários (por exemplo, 1000.50).
